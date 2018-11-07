@@ -5,9 +5,12 @@ var app = new Vue({
         number:0
     },
     methods: {
-        reverseMessage: function () {
+        showAlert: function () {
             if(this.$data.number == this.$data.guess){
                alert ('User guess is correct!')
+            }
+            else{
+                alert("Your guess is incorrect try again a number between 1 and 10")
             }
         }
     }
