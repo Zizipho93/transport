@@ -1,4 +1,18 @@
 
+//Registration
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker
+    .register('/scripts/sw.js')
+    .then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful ', registration.scope);
+    }, function(error) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', error);
+    });
+  });
+}
 
 // Files to cache
 var cacheName = 'Assignment3';
