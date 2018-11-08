@@ -1,0 +1,60 @@
+{
+    "short_name": "Transports",
+    "name": "Transport App",
+     "description": "Progressive Mobile App that list available transports for the searched routes.",
+    "icons": [
+      {
+        "src": "images/images.jpeg",
+        "type": "image/jpeg",
+        "sizes": "192x192"
+      },
+      {
+        "src": "Assignment3/images/2cdd09a9e987466f98203b85c4aaf3c7.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "Assignment3/images/1892a9f125854c31bcc9a0aac5ae157d.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+
+      {
+        "src": "Assignment3/images/2833b497538940aba2aa2c51540740f0.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "Assignment3/images/59590-640x360-overground-train_640.jpg",
+        "type": "image/jpeg",
+        "sizes": "20x20"
+      },
+      {
+        "src": "Assignment3/images/a5da42a6e42549cf9a660b1f53f3d96a.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "Assignment3/images/download (1).jpeg",
+        "type": "image/jpeg",
+        "sizes": "512x512"
+      },
+      {
+        "src": "Assignment3/images/download.jpeg",
+        "type": "image/jpeg",
+        "sizes": "512x512"
+      },
+      {
+        "src": "Assignment3/images/how-to-travel-by-taxi-in-Budapest-taxi-scam.jpg",
+        "type": "image/jpeg",
+        "sizes": "512x512"
+      }
+      
+      
+    ],
+     "start_url": "Transport/Assignment3/index.html",
+     "background_color": "#3367D6",
+     "display": "standalone",
+     "scope": "/maps/",
+     "theme_color": "#3367D6"
+  }
