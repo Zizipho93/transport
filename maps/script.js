@@ -49,7 +49,8 @@ var app = new Vue({
                 console.log('must use a valid address')
             }
         },
-        kick: function (result) {
+        klick: function (result) {
+            this.address = result.label
         }
     }
 })
