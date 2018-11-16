@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" >
+    <link rel="manifest" href="/manifest.json">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  
+  <body>
+    <title>Train App</title>
+    <section class="section" id="app">
+      <div class="container has-text-centered">
+        <h1 class="title">
+         Master Train
+        </h1>
+      </div>
+      <div class="container has-text-centered">
+        <div class="">
+          <img src="images/images.jpeg" alt="Train">
+        </div>
+      </div>
+      <div class="container has-text-centered">        
+        <label class="label">Username</label>
+        <div class="field">
+            <input id="username" placeholder="Username">
+        </div>
+        <div class="field">
+            <input id="password" placeholder="Password">
+        </div>       
+        <div class="field" id="button">
+          <input v-on:click="mapPage" type="submit" class="button is-primary" value="Login">
+        </div>
+        &nbsp;
+        <p>New User?</p>
+     
+        <a href="">Sign up</a>        
+      </div>
+
+      
+   
+    </section>
+    
+  </body>  
+  <script src="main.js"></script>
+</html>
